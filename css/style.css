@@ -6,8 +6,6 @@
   padding: 0;
 }
 
-
-
 a {
   text-decoration: none;
 }
@@ -31,23 +29,23 @@ p {
   color: #93cb52;
 }
 
-.bg-light{
-background: #f4f4f4;
-color: #333;
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
 }
-.bg-dark{
-background: #333;
-color: #fff;
-}
-
-.list{
-    margin: 0.5rem 0;
-    list-style: none;
+.bg-dark {
+  background: #333;
+  color: #fff;
 }
 
-.list li{
-    padding: 0.5rem 0;
-    border-bottom: #444 dotted 1px;
+.list {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
 }
 .l-heading {
   font-size: 3.5rem;
@@ -84,8 +82,6 @@ color: #fff;
   padding: 3rem;
 }
 
-
-
 .btn {
   display: inline-block;
   color: #fff;
@@ -101,6 +97,10 @@ color: #fff;
 
 .btn-dark {
   background: #333;
+  color: #fff;
+}
+.bg-primary {
+  background: #93cb52;
   color: #fff;
 }
 
@@ -196,12 +196,37 @@ body {
 
 /* clients */
 
-#clients .items{
-    display: flex;
+#clients .items {
+  display: flex;
 }
 
-#clients .items img{
-    display: block;
-    margin: auto;
-    width: 60%;
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+/*Section : Contact  */
+
+#contact {
+  display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+
 }
